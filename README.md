@@ -9,6 +9,5 @@
 - cp .env.example .env (+update config variables - DB_DATABASE, DB_USERNAME, DB_PASSWORD)  
 - php artisan key:generate  
 - chmod -R 777 storage
-- chmod -R 777 storage/logs
 - php artisan migrate
 - php artisan db:seed
