@@ -4,11 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Binar;
 use Illuminate\Http\Request;
-use App\Traits\FindTrait;
+use App\Traits\CreateTrait;
 
 class ManageBinarController extends Controller
 {
-    use FindTrait;
+    use CreateTrait;
 
     /**
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View

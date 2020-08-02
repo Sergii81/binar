@@ -6,7 +6,7 @@ namespace App\Traits;
 use App\Binar;
 
 
-trait FindTrait
+trait CreateTrait
 {
 
     public function create($end_leaf)
